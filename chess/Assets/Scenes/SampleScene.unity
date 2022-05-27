@@ -400,6 +400,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23846803782960038, guid: aaded257b0fbf496b9b7f8a03a3bfe0d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaded257b0fbf496b9b7f8a03a3bfe0d, type: 3}
 --- !u!1 &1028181082 stripped
@@ -421,15 +425,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileMaterial: {fileID: 2100000, guid: df5b921b36fc6d74da754fb72890228a, type: 2}
   tileSize: 1
-  yOffset: 0.2
+  yOffset: 0.5
   boardCenter: {x: 0, y: 0, z: 0}
   prefabs:
-  - {fileID: 9010542974379343420, guid: 1fb73dd0a45be3a439f862020b6f3fa6, type: 3}
-  - {fileID: 1295358023684744818, guid: bd9e12d48d300714989190b24c08194d, type: 3}
-  - {fileID: 3579400355029531342, guid: 886bf7a2453216a479cb2b957a254111, type: 3}
-  - {fileID: 7075246204208348164, guid: 97935e5d6f4915e4cb05b2c5cc7f12a7, type: 3}
-  - {fileID: 355061306288227806, guid: 9e8b7f79cbb135249b81f71876a0309d, type: 3}
-  - {fileID: 1101818310472962998, guid: 5e1635e7ba0f7354386ccad2b98e7a80, type: 3}
+  - {fileID: 9154489932717185783, guid: a1b4a00237679f143b4b9f68f50ac25d, type: 3}
+  - {fileID: 5823260949682793907, guid: c27a9d917007eb748a6736c82789ec1f, type: 3}
+  - {fileID: 6108511185399813057, guid: 014709811c16d5f45afd4ad72ccdc501, type: 3}
+  - {fileID: 7266142946762432149, guid: 48c3a3ccaf63f2a46bb9c3bfcadea8d9, type: 3}
+  - {fileID: 5281799564610210257, guid: 5373bf7f08584654a85e6de29a5ea9ff, type: 3}
+  - {fileID: 2918692015937369140, guid: 3ea0a9462ecc10040b6fb5f5487139a8, type: 3}
   teamMaterials:
   - {fileID: 2100000, guid: f01f755d5b465ca49a661d3536d2176b, type: 2}
   - {fileID: 2100000, guid: 1f3f1b1150db71c459b0c3f1049bf6d3, type: 2}
